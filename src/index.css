@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --color-coffee-950: #1a0f05;
+  --color-coffee-900: #2d1e11;
+  --color-coffee-800: #3d2a1c;
+  --color-coffee-700: #4B3621;
+  --color-coffee-100: #F5EBDD;
+  --color-coffee-50: #FAF5EE;
+  --color-terracotta: #C77B3F;
+  --color-terracotta-hover: #B06428;
+  --color-amber-gold: #A98B33;
+  --color-cafe-bg: #FFFBF5;
+  --color-charcoal: #2B2B2B;
+}
+
+body {
+  background-color: var(--color-cafe-bg);
+  color: var(--color-charcoal);
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbar for boutique touch */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF5EE;
+}
+::-webkit-scrollbar-thumb {
+  background: #C77B3F;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B06428;
+}
+

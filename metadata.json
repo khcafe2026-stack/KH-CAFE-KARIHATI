@@ -1,0 +1,6 @@
+{
+  "name": "KH CAFE",
+  "description": "A premium, boutique specialty coffee shop website featuring an interactive menu with custom item builder, live visual table reservation system, custom checkout, and customer feedback management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
